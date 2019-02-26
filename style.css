@@ -1,0 +1,159 @@
+
+/* index.html*/
+.main_image1 {
+    max-width:24.95%;
+    height:100%;
+    float:left;
+    background-image: url("bureau.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-right: 1px solid white;
+    background-position: center center;
+}
+
+.main_image2 {
+    max-width:24.95%;
+    height:100%;
+    float:left;
+    background-image: url("gear.jpg");
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-right: 1px solid white;
+    background-size: 60%;
+}
+
+.main_image3 {
+    max-width:24.95%;
+    height:100.1%;
+    float:left;
+    background-image: url("cablemanagment.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 120%;
+    border-right: 1px solid white;
+}
+
+.main_image4 {
+    max-width:24.95%;
+    height:100%;
+    float:left;
+    background-image: url("voorbeelden.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    background-color:black;
+}
+
+body         {
+    min-width: 100%;
+    min-height: 99.9%;
+    margin:0;
+    padding:0;
+}
+
+a            {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+
+}
+
+.header_main1    {
+    padding-top:139.9%;
+    background-color: black;
+    color:blue;
+    opacity: 0;
+    text-align: center;
+}
+
+.header_main1:hover     {
+    opacity:0.5;
+}
+
+.header_main2    {
+    padding-top:130.9%;
+    background-color:grey;
+    color:#BCD76C;
+    opacity: 0;
+    text-align: center;
+}
+
+.header_main2:hover     {
+    opacity:0.5;
+}
+
+.header_main3    {
+    padding-top:139.9%;
+    background-color:#3E4347;
+    color:red;
+    opacity: 0;
+    text-align: center;
+}
+
+.header_main3:hover     {
+    opacity: 0.5;
+}
+
+.header_main4    {
+    padding-top:139.9%;
+    background-color:black;
+    color:whitesmoke;
+    opacity: 0;
+    text-align: center;
+}
+
+.header_main4:hover     {
+    opacity: 0.5;
+}
+
+.text_main              {
+    opacity: 1.0;
+}
+
+/* Nav */
+
+header	{
+    background-color:black;
+}
+
+nav    	 {
+    background-color: black;
+    width:100%;
+    height:12.5%;
+    position:fixed;
+    top:0px;
+    width:100%;
+}
+.nav-item    {
+    background-color:black;
+    float:left;
+    width:19.5%;
+    list-style-type: none;
+    text-align: center;
+    margin-top:2%;
+}
+
+.nav-item-main    {
+    background-color:black;
+    float:left;
+    width:19.5%;
+    list-style-type: none;
+    text-align: center;
+    margin-top:2%;
+    color:blue;
+}
+
+.links-nav      {
+    color:white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12pt;
+}
+
+.links-nav:hover  {
+    color: grey;
+    text-decoration: underline;
+}
